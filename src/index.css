@@ -8,7 +8,7 @@
 }
 
 @theme {
-    --color-yellow: #e7d393;
+    --color-yellow: #C4B39A;
     --color-white-100: #efefef;
     --font-sans: "Mona Sans", sans-serif;
     --font-modern-negra: "Modern Negra", sans-serif;
@@ -37,7 +37,7 @@ body {
 }
 
 @utility text-gradient {
-    background: linear-gradient(to bottom, #ffffff, #898989);
+    background: linear-gradient(to bottom, #ffffff, #555555);
     -webkit-background-clip: text;
     background-clip: text;
     color: transparent;
@@ -92,33 +92,41 @@ body {
         @apply relative z-10 min-h-dvh w-full border border-transparent;
 
         h1 {
-            @apply md:mt-32 mt-40 text-8xl md:text-[20vw] leading-none text-center font-modern-negra;
+            @apply md:mt-32 mt-40 text-6xl md:text-[7vw] leading-none text-center font-modern-negra;
         }
 
-        .left-leaf {
-            @apply absolute left-0 md:top-20 xl:top-36 2xl:top-52 md:bottom-auto -bottom-20 md:w-fit w-1/3;
+        .left-bean-up {
+            @apply absolute -left-10 rotate-40 md:top-20 xl:top-36 2xl:top-52 md:bottom-auto -bottom-20 md:w-30 w-27;
         }
 
-        .right-leaf {
-            @apply absolute right-0 md:bottom-0 xl:top-0 2xl:top-12 top-1/2 md:w-fit w-24;
+        .left-bean-down {
+            @apply absolute -left-13 rotate-130 md:top-20 xl:top-36 2xl:top-52 md:bottom-auto -bottom-20 md:w-30 w-27;
+        }
+
+        .right-bean-up {
+            @apply absolute -right-12 rotate-110 md:bottom-0 xl:top-0 2xl:top-12 top-1/2 md:w-27 w-24;
+        }
+
+        .right-bean-down {
+            @apply absolute -right-14 rotate-70 md:bottom-0 xl:top-0 2xl:top-12 top-1/2 md:w-27 w-24;
         }
 
         .body {
-            @apply container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[30vh] flex justify-between items-end px-5;
+            @apply container mx-auto absolute left-1/2 -translate-x-1/2 lg:bottom-20 top-auto md:top-[30vh] flex justify-between items-end px-5 pt-5;
 
             .content {
-                @apply flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto;
+                @apply flex lg:flex-row flex-col w-full gap-10 justify-between items-center lg:items-end mx-auto text-center lg:text-left;
 
                 p:nth-of-type(2) {
-                    @apply font-modern-negra text-6xl text-yellow max-w-xl;
+                    @apply font-sans font-semibold text-4xl text-yellow max-w-xl;
                 }
 
                 p:last-of-type {
-                    @apply 2xl:text-start text-center;
+                    @apply lg:text-start text-center;
                 }
 
                 .view-cocktails {
-                    @apply space-y-5 text-lg lg:max-w-2xs md:max-w-xs w-full;
+                    @apply space-y-3 text-base lg:max-w-2xs md:max-w-xs w-full;
 
                     p {
                         @apply text-left;
@@ -139,11 +147,11 @@ body {
     #cocktails {
         @apply relative min-h-dvh w-full overflow-hidden;
 
-        #c-left-leaf {
+        #c-left-bean {
             @apply absolute left-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3;
         }
 
-        #c-right-leaf {
+        #c-right-bean {
             @apply absolute right-0 md:bottom-0 md:top-auto -top-20 md:w-fit w-1/3;
         }
 
@@ -277,11 +285,11 @@ body {
     #menu {
         @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient;
 
-        #m-left-leaf {
+        #m-left-bean {
             @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3;
         }
 
-        #m-right-leaf {
+        #m-right-bean {
             @apply object-contain absolute -top-40 right-0 md:w-fit w-1/4;
         }
 
@@ -345,11 +353,11 @@ body {
     #contact {
         @apply relative md:mt-20 mt-0 px-4 text-center w-full overflow-hidden radial-gradient;
 
-        #f-left-leaf {
+        #f-left-bean {
             @apply absolute bottom-0 left-0 pointer-events-none lg:w-fit w-1/3;
         }
 
-        #f-right-leaf {
+        #f-right-bean {
             @apply absolute top-0 right-0 pointer-events-none hidden lg:block;
         }
 

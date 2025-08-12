@@ -17,57 +17,57 @@ const navLinks = [
   },
 ];
 
-const cocktailLists = [
+const coffeeLists = [
   {
-    name: "Chapel Hill Shiraz",
-    country: "AU",
-    detail: "Battle",
-    price: "$10",
+    name: "Espresso Romano",
+    country: "Italy",
+    detail: "Bright, Citrusy",
+    price: "$3.50",
   },
   {
-    name: "Caten Malbee",
-    country: "AU",
-    detail: "Battle",
-    price: "$49",
+    name: "Turkish Coffee",
+    country: "Turkey",
+    detail: "Bold, Spiced",
+    price: "$4.00",
   },
   {
-    name: "Rhino Pale Ale",
-    country: "CA",
-    detail: "750 ml",
-    price: "$20",
+    name: "Flat White",
+    country: "Australia",
+    detail: "Smooth, velvety",
+    price: "$4.20",
   },
   {
-    name: "Irish Guinness",
-    country: "IE",
-    detail: "600 ml",
-    price: "$29",
+    name: "Café de Olla",
+    country: "Mexico",
+    detail: "Sweet, Cinnamon",
+    price: "$3.80",
   },
 ];
 
-const mockTailLists = [
+const refreshingLists = [
   {
-    name: "Tropical Bloom",
+    name: "Cold Brew",
     country: "US",
-    detail: "Battle",
-    price: "$10",
+    detail: "Smooth & chilled",
+    price: "$4.80",
   },
   {
-    name: "Passionfruit Mint",
-    country: "US",
-    detail: "Battle",
-    price: "$49",
+    name: "Affogato",
+    country: "Italy",
+    detail: "Espresso over gelato",
+    price: "$5.90",
   },
   {
-    name: "Citrus Glow",
-    country: "CA",
-    detail: "750 ml",
-    price: "$20",
+    name: "Vietnamese Iced Coffee",
+    country: "Vietnam",
+    detail: "Sweet & strong",
+    price: "$5.50",
   },
   {
-    name: "Lavender Fizz",
-    country: "IE",
-    detail: "600 ml",
-    price: "$29",
+    name: "Frappé",
+    country: "Greece",
+    detail: "Frothy & cool",
+    price: "$5.20",
   },
 ];
 
@@ -171,8 +171,8 @@ const sliderLists = [
 
 export {
   navLinks,
-  cocktailLists,
-  mockTailLists,
+  coffeeLists,
+  refreshingLists,
   profileLists,
   featureLists,
   goodLists,

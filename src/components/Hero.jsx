@@ -40,10 +40,10 @@ const Hero = () => {
           scrub: true,
         },
       })
-      .to(".right-bean-up", { y: 200 }, 0)
-      .to(".left-bean-up", { y: -200 }, 0);
+      .to(".right-bean", { y: 200 }, 0)
+      .to(".left-bean", { y: -200 }, 0);
 
-    const startValue = isMobile ? "top 50%" : "center 65%";
+    const startValue = isMobile ? "top 40%" : "center 65%";
     const endValue = isMobile ? "120% top" : "bottom top";
 
     const tl = gsap.timeline({

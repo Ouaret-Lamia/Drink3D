@@ -4,16 +4,16 @@ const navLinks = [
     title: "Coffee",
   },
   {
-   id: "about",
-   title: "About Us",
+    id: "about",
+    title: "About Us",
   },
   {
-   id: "work",
-   title: "The Art",
+    id: "work",
+    title: "The Art",
   },
   {
-   id: "contact",
-   title: "Contact",
+    id: "contact",
+    title: "Contact",
   },
 ];
 
@@ -134,38 +134,38 @@ const socials = [
   },
 ];
 
-const sliderLists = [
+const allCoffees = [
   {
     id: 1,
-    name: "Classic Mojito",
-    image: "/images/drink1.png",
-    title: "Simple Ingredients, Bold Flavor",
+    name: "Espresso",
+    image: "/images/coffee1.png",
+    title: "Small Cup, Big Kick",
     description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+      "A rich, concentrated shot of coffee brewed under pressure. Perfect for a quick energy boost or as the base for your favorite coffee drinks.",
   },
   {
     id: 2,
-    name: "Raspberry Mojito",
-    image: "/images/drink2.png",
-    title: "A Zesty Classic That Never Fails",
+    name: "Cappuccino",
+    image: "/images/coffee2.png",
+    title: "Foamy, Smooth, and Balanced",
     description:
-      "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+      "Equal parts espresso, steamed milk, and milk foam. A creamy classic that blends bold coffee with silky texture.",
   },
   {
     id: 3,
-    name: "Violet Breeze",
-    image: "/images/drink3.png",
-    title: "Simple Ingredients, Bold Flavor",
+    name: "Latte",
+    image: "/images/coffee3.png",
+    title: "Mellow Flavor, Velvety Feel",
     description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+      "Espresso combined with plenty of steamed milk and a thin layer of foam. Light, smooth, and customizable with flavors like vanilla or caramel.",
   },
   {
     id: 4,
-    name: "Curacao Mojito",
-    image: "/images/drink4.png",
-    title: "Crafted With Care, Poured With Love",
+    name: "Cold Brew",
+    image: "/images/coffee4.png",
+    title: "Cool, Smooth, Refreshing",
     description:
-      "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+      "Coffee steeped in cold water for hours, creating a naturally sweet, low-acidity brew. Best served over ice on warm days.",
   },
 ];
 
@@ -179,5 +179,5 @@ export {
   openingHours,
   storeInfo,
   socials,
-  sliderLists,
+  allCoffees,
 };

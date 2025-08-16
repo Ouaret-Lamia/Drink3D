@@ -279,42 +279,42 @@ body {
     }
 
     #menu {
-        @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient;
+        @apply relative w-full md:mt-40 mt-0 md:px-30 2xl:px-0 px-5 py-20 radial-gradient;
 
         #m-left-bean {
-            @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3;
+            @apply object-contain absolute -bottom-20 -left-13 rotate-50 md:w-30 w-27;
         }
 
         #m-right-bean {
-            @apply object-contain absolute -top-40 right-0 md:w-fit w-1/4;
+            @apply object-contain absolute top-30 -right-12 rotate-130 md:w-27 w-24;
         }
 
-        .cocktail-tabs {
-            @apply grid md:grid-cols-4 grid-cols-2 md:gap-20 gap-10 sm:mb-32 mb-20 relative z-10 md:max-w-6xl md:mx-auto;
+        .coffee-tabs {
+            @apply grid md:grid-cols-4 grid-cols-2 md:gap-20 gap-10 mb-32 md:mb-20 relative z-10 md:max-w-6xl md:mx-auto;
 
             button {
-                @apply md:text-3xl text-xl pb-2 cursor-pointer hover:text-cream hover:border-cream border-b-1 transition-colors font-modern-negra;
+                @apply md:text-3xl text-xl pb-2 cursor-pointer hover:text-cream hover:border-cream border-b-1 transition-colors font-serif;
             }
         }
 
         .content {
-            @apply flex flex-col justify-between items-center container mx-auto relative;
+            @apply flex flex-col justify-start items-center container mx-auto relative;
 
             .arrows {
-                @apply flex items-center justify-between w-full absolute;
+                @apply flex items-center justify-between w-full absolute pt-10;
 
                 button {
                     @apply text-white hover:text-cream cursor-pointer transition-colors max-w-36;
 
                     span {
-                        @apply text-3xl font-modern-negra leading-none hidden md:block;
+                        @apply text-xl font-serif leading-none hidden md:block;
                     }
                 }
             }
         }
 
-        .cocktail {
-            @apply flex-center mt-10;
+        .coffee {
+            @apply flex-center;
 
             img {
                 @apply object-contain h-[60vh];
@@ -325,22 +325,22 @@ body {
             @apply flex max-md:flex-col gap-10 md:items-center justify-between w-full lg:absolute bottom-0;
 
             .info {
-                @apply space-y-4 lg:translate-y-20;
+                /* @apply space-y-4 lg:translate-y-20; */
 
                 #title {
-                    @apply font-modern-negra md:text-6xl text-3xl text-cream max-w-40;
+                    @apply font-serif md:text-5xl text-3xl text-cream max-w-40 md:max-w-sm;
                 }
             }
 
             .details {
-                @apply space-y-5 md:max-w-md text-left;
+                @apply space-y-5 md:max-w-sm text-left;
 
                 h2 {
-                    @apply md:text-5xl text-3xl font-serif;
+                    @apply md:text-4xl text-3xl font-serif;
                 }
 
                 p {
-                    @apply md:text-lg pe-5;
+                    @apply pe-5;
                 }
             }
         }

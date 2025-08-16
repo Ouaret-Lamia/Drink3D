@@ -88,16 +88,16 @@ const profileLists = [
 
 const featureLists = [
   "Perfectly balanced blends",
-  "Garnished to perfection",
-  "Ice-cold every time",
-  "Expertly shaken & stirred",
+  "Topped with latte art perfection",
+  "Served piping hot every time",
+  "Expertly brewed & poured",
 ];
 
 const goodLists = [
-  "Handpicked ingredients",
-  "Signature techniques",
-  "Bartending artistry in action",
-  "Freshly muddled flavors",
+  "Freshly roasted beans",
+  "Expert brewing methods",
+  "Barista-crafted perfection",
+  "Aromas that awaken the senses",
 ];
 
 const storeInfo = {

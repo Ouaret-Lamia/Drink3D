@@ -101,19 +101,17 @@ const goodLists = [
 ];
 
 const storeInfo = {
-  heading: "Where to Find Us",
-  address: "456, Raq Blvd. #404, Los Angeles, CA 90210",
+  address: "45 Rue Didouche Mourad, Alger-Centre, Alger 16000",
   contact: {
-    phone: "(555) 987-6543",
-    email: "hello@jsmcocktail.com",
+    phone: "+213 550 23 45 67",
+    email: "contact@soft-muse.com",
   },
 };
 
 const openingHours = [
-  { day: "Mon–Thu", time: "11:00am – 12am" },
-  { day: "Fri", time: "11:00am – 2am" },
-  { day: "Sat", time: "9:00am – 2am" },
-  { day: "Sun", time: "9:00am – 1am" },
+  { day: "Sun–Thu", time: "6:00am – 7pm" },
+  { day: "Fri", time: "7:00am – 9pm" },
+  { day: "Sat", time: "7:00am – 9pm" },
 ];
 
 const socials = [

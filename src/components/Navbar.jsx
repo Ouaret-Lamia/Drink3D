@@ -19,7 +19,7 @@ const Navbar = () => {
       },
       {
         backgroundColor: "#00000050",
-        backgroundFilter: 'blur(200px)',
+        backdropFilter: 'blur(5px)',
         duration: 1,
         ease: "power1.inOut",
       }
